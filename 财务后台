@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T03:26:48.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="AxoGQPeZcVcoQurIYulU" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-10T03:36:48.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="n0a_RLjXstaOfwk9lANT" version="16.2.4" type="github">
   <diagram id="kUidCVVbBDPfxjG9BriV" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -283,8 +283,14 @@
         <mxCell id="cwdqfjx_rLNT_JiBFg2r-14" value="php代码 获取 子账号信息&lt;br&gt;（globel库）" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="595" y="1520" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="cwdqfjx_rLNT_JiBFg2r-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cwdqfjx_rLNT_JiBFg2r-17" target="cwdqfjx_rLNT_JiBFg2r-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cwdqfjx_rLNT_JiBFg2r-17" value="/v1/account/earn-stats" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1160" y="1280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwdqfjx_rLNT_JiBFg2r-20" value="获取子账号 收益状态（跨库）&lt;br&gt;搜索 stats 库的&amp;nbsp;&lt;br&gt;payment_records" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="1410" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
