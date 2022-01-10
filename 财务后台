@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T07:34:53.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="NVS62XSTerX_qoH3FwJb" version="16.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-10T09:03:54.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="TR-MgSNoFz9l2Cnc1qPm" version="16.2.2" type="github" pages="2">
   <diagram id="kUidCVVbBDPfxjG9BriV" name="第 1 页">
     <mxGraphModel dx="1102" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -229,7 +229,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OKCiUzxa4_Z8KymastRF" name="第 2 页">
-    <mxGraphModel dx="1102" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1296" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="6iIXyrMu01kocs--OI1U-0" />
         <mxCell id="6iIXyrMu01kocs--OI1U-1" parent="6iIXyrMu01kocs--OI1U-0" />
@@ -307,8 +307,8 @@
         <mxCell id="6iIXyrMu01kocs--OI1U-19" value="如果有观察者参数，验证观察者" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="6iIXyrMu01kocs--OI1U-1">
           <mxGeometry x="560" y="1020" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6iIXyrMu01kocs--OI1U-20" value="主流程 获取当前子账号信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="6iIXyrMu01kocs--OI1U-1">
-          <mxGeometry x="820" y="1530" width="120" height="80" as="geometry" />
+        <mxCell id="6iIXyrMu01kocs--OI1U-20" value="主流程 获取当前子账号信息&lt;br&gt;0.004709::0.007449::3.634055::3.634150::778&lt;br&gt;平均3秒" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="6iIXyrMu01kocs--OI1U-1">
+          <mxGeometry x="820" y="1530" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="6iIXyrMu01kocs--OI1U-21" value="新加坡" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="6iIXyrMu01kocs--OI1U-1">
           <mxGeometry x="95" y="1410" width="120" height="80" as="geometry" />
@@ -322,8 +322,8 @@
         <mxCell id="6iIXyrMu01kocs--OI1U-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6iIXyrMu01kocs--OI1U-1" source="6iIXyrMu01kocs--OI1U-42" target="6iIXyrMu01kocs--OI1U-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6iIXyrMu01kocs--OI1U-25" value="获取子账号 收益状态（跨库）&lt;br&gt;搜索 stats 库的&amp;nbsp;&lt;br&gt;payment_records&lt;br&gt;（从企业微信接口请求耗时看 这接口耗时10秒）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="6iIXyrMu01kocs--OI1U-1">
-          <mxGeometry x="1420" y="1330" width="120" height="180" as="geometry" />
+        <mxCell id="6iIXyrMu01kocs--OI1U-25" value="获取子账号 收益状态（跨库）&lt;br&gt;搜索 stats 库的&amp;nbsp;&lt;br&gt;payment_records&lt;br&gt;（从企业微信接口请求耗时看 这接口耗时10秒）&lt;br&gt;&lt;br&gt;0.003915::0.006160::3.516860::3.516968::208" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="6iIXyrMu01kocs--OI1U-1">
+          <mxGeometry x="1420" y="1330" width="260" height="180" as="geometry" />
         </mxCell>
         <mxCell id="6iIXyrMu01kocs--OI1U-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6iIXyrMu01kocs--OI1U-1" source="6iIXyrMu01kocs--OI1U-18" target="6iIXyrMu01kocs--OI1U-29">
           <mxGeometry relative="1" as="geometry">
