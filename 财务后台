@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T07:00:05.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="VWRwhR9uLp6Ebb_msQ2e" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-10T07:02:41.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="KsdLRlfNARXUOkwwbrBX" version="16.2.2" type="github">
   <diagram id="kUidCVVbBDPfxjG9BriV" name="第 1 页">
     <mxGraphModel dx="1342" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -327,7 +327,7 @@
         <mxCell id="DFRp8p6lKbG_VZ-GO1nP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DFRp8p6lKbG_VZ-GO1nP-3" target="DFRp8p6lKbG_VZ-GO1nP-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFRp8p6lKbG_VZ-GO1nP-3" value="/v1/account/earn-stats" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DFRp8p6lKbG_VZ-GO1nP-3" value="&lt;p style=&quot;background-color: rgb(43 , 43 , 43)&quot;&gt;&lt;font color=&quot;#a9b7c6&quot; face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;/v1/worker/stats&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1160" y="1180" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DFRp8p6lKbG_VZ-GO1nP-4" value="获取矿机状态&lt;br&gt;本区获取&lt;br&gt;（本区local库等）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
