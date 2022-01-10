@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T07:02:41.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="KsdLRlfNARXUOkwwbrBX" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-10T07:04:32.991Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="XUoLNJjb1BmDz7jHKN_B" version="16.2.2" type="github">
   <diagram id="kUidCVVbBDPfxjG9BriV" name="第 1 页">
     <mxGraphModel dx="1342" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -339,7 +339,7 @@
         <mxCell id="DFRp8p6lKbG_VZ-GO1nP-6" value="/v1/realtime/hashrate" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1160" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFRp8p6lKbG_VZ-GO1nP-9" value="获取实时算力&lt;br&gt;（本地local库）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DFRp8p6lKbG_VZ-GO1nP-9" value="获取算力图表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1405" y="1050" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
