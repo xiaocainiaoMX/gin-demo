@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T07:15:00.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="kHqjbnMzW8ESd-MYnn3y" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-10T07:27:34.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="r58wR2vMCXiUTPkKJ1jI" version="16.2.2" type="github">
   <diagram id="kUidCVVbBDPfxjG9BriV" name="第 1 页">
     <mxGraphModel dx="1342" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -284,10 +284,16 @@
         <mxCell id="DFRp8p6lKbG_VZ-GO1nP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cwdqfjx_rLNT_JiBFg2r-3" target="DFRp8p6lKbG_VZ-GO1nP-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFRp8p6lKbG_VZ-GO1nP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cwdqfjx_rLNT_JiBFg2r-3" target="DFRp8p6lKbG_VZ-GO1nP-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DFRp8p6lKbG_VZ-GO1nP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="cwdqfjx_rLNT_JiBFg2r-17" target="DFRp8p6lKbG_VZ-GO1nP-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="1500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="1340" />
+              <mxPoint x="1260" y="1510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cwdqfjx_rLNT_JiBFg2r-3" value="/v1/account/sub-account/info" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="cwdqfjx_rLNT_JiBFg2r-3" value="/v1/account/sub-account/info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF2457;" parent="1" vertex="1">
           <mxGeometry x="395" y="1280" width="195" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cwdqfjx_rLNT_JiBFg2r-4" value="如果有观察者参数，验证观察者" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
@@ -307,9 +313,6 @@
         </mxCell>
         <mxCell id="cwdqfjx_rLNT_JiBFg2r-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cwdqfjx_rLNT_JiBFg2r-17" target="cwdqfjx_rLNT_JiBFg2r-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cwdqfjx_rLNT_JiBFg2r-17" value="/v1/account/earn-stats" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="1290" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cwdqfjx_rLNT_JiBFg2r-20" value="获取子账号 收益状态（跨库）&lt;br&gt;搜索 stats 库的&amp;nbsp;&lt;br&gt;payment_records&lt;br&gt;（从企业微信接口请求耗时看 这接口耗时10秒）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1420" y="1330" width="120" height="180" as="geometry" />
@@ -333,8 +336,8 @@
         <mxCell id="DFRp8p6lKbG_VZ-GO1nP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DFRp8p6lKbG_VZ-GO1nP-3" target="DFRp8p6lKbG_VZ-GO1nP-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DFRp8p6lKbG_VZ-GO1nP-3" value="&lt;p style=&quot;background-color: rgb(43 , 43 , 43)&quot;&gt;&lt;font color=&quot;#a9b7c6&quot; face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;/v1/worker/stats&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="1180" width="150" height="60" as="geometry" />
+        <mxCell id="DFRp8p6lKbG_VZ-GO1nP-3" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43)&quot;&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&lt;b&gt;/v1/worker/stats&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1190" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DFRp8p6lKbG_VZ-GO1nP-4" value="获取矿机状态&lt;br&gt;本区获取&lt;br&gt;（本区local库等）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1420" y="1170" width="120" height="80" as="geometry" />
@@ -343,7 +346,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DFRp8p6lKbG_VZ-GO1nP-6" value="/v1/realtime/hashrate" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="1060" width="120" height="60" as="geometry" />
+          <mxGeometry x="1100.01" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DFRp8p6lKbG_VZ-GO1nP-9" value="获取实时算力&lt;br&gt;（本地local库）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1420" y="1050" width="120" height="80" as="geometry" />
@@ -352,7 +355,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DFRp8p6lKbG_VZ-GO1nP-12" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43)&quot;&gt;&lt;font color=&quot;#a9b7c6&quot; face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;/v1/worker/share-history&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1055" y="960" width="155" height="80" as="geometry" />
+          <mxGeometry x="1040" y="910" width="155" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DFRp8p6lKbG_VZ-GO1nP-14" value="算力图表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1420" y="960" width="120" height="80" as="geometry" />
@@ -371,6 +374,16 @@
         </mxCell>
         <mxCell id="DFRp8p6lKbG_VZ-GO1nP-26" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;/v1/pool/multi-coin-stats&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1390" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwdqfjx_rLNT_JiBFg2r-17" value="/v1/account/earn-stats" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fillColor=#FF1C42;" parent="1" vertex="1">
+          <mxGeometry x="1010.01" y="1380" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFRp8p6lKbG_VZ-GO1nP-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" source="cwdqfjx_rLNT_JiBFg2r-3" target="cwdqfjx_rLNT_JiBFg2r-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="1340" as="sourcePoint" />
+            <mxPoint x="1210" y="1510" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
